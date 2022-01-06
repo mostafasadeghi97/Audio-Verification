@@ -1,6 +1,6 @@
-# Environmental Sound Classification using Deep Learning
+# Voice Verification 
 
-> A project from Digital Signal Processing course
+
 ## Dependencies
 
 - Python 3.6
@@ -15,23 +15,23 @@
 
 ## Dataset
 
-Dataset could be downloaded at [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT) or [Github](https://github.com/karoldvl/ESC-50).
+I Collected this data from friends and family. It contains numbers from 0-12 and 20 and 99
 
-I'd recommend use ESC-10 for the sake of convenience.
+
 
 Example:
 
 ```
-├── 001 - Cat
-│  ├── cat_1.ogg
-│  ├── cat_2.ogg
-│  ├── cat_3.ogg
+├── wav0
+│  ├── 1.wav
+│  ├── 2.wav
+│  ├── 3.wav
 │  ...
 ...
-└── 002 - Dog
-   ├── dog_barking_0.ogg
-   ├── dog_barking_1.ogg
-   ├── dog_barking_2.ogg
+└── wav0
+   ├── 0.wav
+   ├── 1.wav
+   ├── 2.wav
    ...
 ```
 
